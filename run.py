@@ -56,17 +56,106 @@ while option != 0:
                 print("Thanks ", player_name, "for your Time.")
 
         guess_number()
-        # print("")
-#     elif option == 2:
-#         print("option B has been called")
-#     else:
-#         print("Invalid option")
+        
+    elif option == 2:
+        print("Welcome to my computer quiz")
 
-#     print()
-#     game()
-#     option = int(input("Enter your Game: "))
+        player_name = input("Enter Your Name:  ")
+        print("Welcome ", player_name, "to the 'Computer Quiz Game.' ")
 
-# print("Thanks for using the programm. Goodbye")
+        playing = input("Would you like to start the game? (Enter yes/no): ")
+
+        if playing !="yes":
+            quit()
+
+        print("Okay! Let's play! :")
+        score = 0
+
+        answer = input("Is the coding language Python, named after a snake? ")
+        if answer == "no":
+            print('correct!!')
+            score += 1
+        else:
+            print('Incorrect!!!')
+
+        answer = input("What does CPU stand for?")
+        if answer =="central processing unit":
+            print('Correct!!')
+            score += 1
+        else:
+            print('Incorrect!!!')
+
+        answer = input("What does RAM stand for?")
+        if answer =="random access memory":
+            print('Correct!!')
+            score += 1
+        else:
+            print('Incorrect!!!')
+
+        answer = input("What does HTML stand for?")
+        if answer =="hypertext markup language":
+            print('Correct!!')
+            score += 1
+        else:
+            print('Incorrect!!!')
+
+        answer = input("What does PDF stand for?")
+        if answer =="portable document format":
+            print('Correct!!')
+            score += 1
+        else:
+            print('Incorrect!!!')
+
+        answer = input("What does PNG in computer image format stand for?")
+        if answer =="portable network graphics":
+            print('Correct!!')
+            score += 1
+        else:
+            print('Incorrect!!!')
+
+
+        answer = input("What does GB in computer stand for?")
+        if answer =="giga bytes":
+            print('Correct!!')
+            score += 1
+        else:
+            print('Incorrect!!!')
+
+
+        answer = input("What does CD in computer stand for?")
+        if answer =="compact disk":
+            print('Correct!!')
+            score += 1
+        else:
+            print('Incorrect!!!')
+
+
+        answer = input("What does DVD stand for?")
+        if answer =="digital video disk":
+            print('Correct!!')
+            score += 1
+        else:
+            print('Incorrect!!!')
+
+
+        answer = input("What does KB stand for?")
+        if answer =="kilo bytes":
+            print('Correct!!')
+            score += 1
+        else:
+            print('Incorrect!!!')
+
+
+        print("You got " + str(score) + " questoins correct!")
+        print("You got " + str((score/10) *100) + "%. ")
+    else:
+        print("Invalid option")
+
+    print()
+    game()
+    option = int(input("Enter your Game: "))
+
+print("Thanks for using the programm. Goodbye")
 
 
 # def option A():
