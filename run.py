@@ -4,16 +4,21 @@
 import random
 import pyfiglet
 from termcolor import colored
-
-print("Welcome to the Brain Refreshment Game")
+def Welcome():
+    """
+    Function to display home page
+    """
+    title = "Welcome  to  the  Brain  Refreshment  Game "
+    print(colored(pyfiglet.figlet_format(title), "green"))
+Welcome()
 
 def game():
-    print("[1] guess_number")
-    print("[2] computer_quiz")
-    print("[0] Exit the Brain Refershment Game.")
+    print("option [1] guess_number")
+    print("option [2] computer_quiz")
+    print("option [0] Exit the Brain Refershment Game.")
 
 game()
-option = int(input("Enter your Game: "))
+option = int(input("Enter your Game Option: "))
 
 while option != 0:
     if option == 1:
@@ -27,8 +32,9 @@ while option != 0:
 
 
         def guess_number():
-            random_number = random.randint(1, 20)
+            random_number = random.randint(1, 50)
             player_name = input("Enter Your Name:  ")
+            print("Welcome ", player_name, "to the 'Number Guessing Game.' ")
             confirm_play = input("Would you like to start the game? (Enter yes/no): ")
             attempts = 0
 
@@ -58,6 +64,15 @@ while option != 0:
         guess_number()
         
     elif option == 2:
+        def Welcome():
+            """
+            Function to display home page
+            """
+            title = "Welcome  to  COMPUTER  QUIZ  GAME "
+            print(colored(pyfiglet.figlet_format(title), "green"))
+        Welcome()
+
+
         print("Welcome to my computer quiz")
 
         player_name = input("Enter Your Name:  ")
