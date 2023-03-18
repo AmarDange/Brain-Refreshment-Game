@@ -13,12 +13,12 @@ def Welcome():
 Welcome()
 
 def game():
-    print("option [1] guess_number")
-    print("option [2] computer_quiz")
+    print("option [1] Guess_Number")
+    print("option [2] Computer_Quiz")
     print("option [0] Exit the Brain Refershment Game.")
 
 game()
-option = int(input("Enter your Game Option: "))
+option = int(input("Enter your Game Option : "))
 
 while option != 0:
     if option == 1:
