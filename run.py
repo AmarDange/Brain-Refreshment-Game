@@ -20,6 +20,15 @@ def game():
 game()
 option = int(input("Enter your Game Option : "))
 
+def clear_screen():
+    """
+    Clears the console
+    """
+    if os.name == "posix":
+        os.system("clear")
+    else:
+        os.system("cls")
+        
 while option != 0:
     if option == 1:
         def Welcome():
