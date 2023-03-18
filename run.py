@@ -46,7 +46,7 @@ while option != 0:
                     print("Please guess any number in the Range.")
 
                 elif guess == random_number:
-                    print("@@@###$$$Congratulations ", player_name, 'You Win $$$###@@@')
+                    print("@@@ Congratulations ", player_name, 'You Win @@@')
                     attempts +=1
                     print("It took you ", attempts, "attempts to win this Game.")
                     break
