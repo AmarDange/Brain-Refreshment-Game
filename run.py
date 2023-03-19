@@ -4,13 +4,13 @@
 import random
 import pyfiglet
 from termcolor import colored
-def Welcome():
+
+def Welcome(message):
     """
     Function to display home page
     """
-    title = "Welcome  to  the  Brain  Refreshment  Game "
-    print(colored(pyfiglet.figlet_format(title), "green"))
-Welcome()
+    print(colored(pyfiglet.figlet_format(message), "green"))
+Welcome("Welcome  to  the  Brain  Refreshment  Game ")
 
 def game():
     print("option [1] Guess_Number")
@@ -19,27 +19,11 @@ def game():
 
 game()
 option = int(input("Enter your Game Option : "))
-
-def clear_screen():
-    """
-    Clears the console
-    """
-    if os.name == "posix":
-        os.system("clear")
-    else:
-        os.system("cls")
         
 while option != 0:
     if option == 1:
-        def Welcome():
-            """
-            Function to display home page
-            """
-            title = "Welcome  to  NUMBER  GUESSING  GAME "
-            print(colored(pyfiglet.figlet_format(title), "green"))
-        Welcome()
-
-
+      
+        Welcome("Welcome  to  NUMBER  GUESSING  GAME ")
         def guess_number():
             random_number = random.randint(1, 50)
             player_name = input("Enter Your Name:  ")
@@ -73,13 +57,8 @@ while option != 0:
         guess_number()
         
     elif option == 2:
-        def Welcome():
-            """
-            Function to display home page
-            """
-            title = "Welcome  to  COMPUTER  QUIZ  GAME "
-            print(colored(pyfiglet.figlet_format(title), "green"))
-        Welcome()
+        
+        Welcome("Welcome  to  COMPUTER  QUIZ  GAME ")
 
         player_name = input("Enter Your Name:  ")
         print("Welcome ", player_name, "to the 'Computer Quiz Game.' ")
