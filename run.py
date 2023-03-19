@@ -19,14 +19,15 @@ def game():
 
 game()
 option = int(input("Enter your Game Option : "))
-        
+player_name = input("Enter Your Name:  ")
+
 while option != 0:
     if option == 1:
       
         Welcome("Welcome  to  NUMBER  GUESSING  GAME ")
         def guess_number():
             random_number = random.randint(1, 50)
-            player_name = input("Enter Your Name:  ")
+            # player_name = input("Enter Your Name:  ")
             print("Welcome ", player_name, "to the 'Number Guessing Game.' ")
             confirm_play = input("Would you like to start the game? (Enter yes/no): ")
             attempts = 0
@@ -60,15 +61,15 @@ while option != 0:
         
         Welcome("Welcome  to  COMPUTER  QUIZ  GAME ")
 
-        player_name = input("Enter Your Name:  ")
+        # player_name = input("Enter Your Name:  ")
         print("Welcome ", player_name, "to the 'Computer Quiz Game.' ")
 
-        playing = input("Would you like to start the game? (Enter yes/no): ")
+        # playing = input("Would you like to start the game? (Enter yes/no): ")
 
-        if playing !="yes":
-            quit()
+        # if playing !="yes":
+        #     quit()
 
-        print("Okay! Let's play! :")
+        # print("Okay! Let's play! :")
         score = 0
 
         answer = input("Is the coding language Python, named after a snake? ")
