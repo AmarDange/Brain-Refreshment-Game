@@ -59,7 +59,8 @@ while option != 0:
         
     elif option == 2:
         
-        Welcome("Welcome  to  COMPUTER  QUIZ  GAME ")
+        Welcome("Welcome  to  COMPUTER  QUIZ  GAME!! ")
+        print('NOTE: if your spelling is incorrect then it is considered as wrong answer')
 
         # player_name = input("Enter Your Name:  ")
         print("Welcome ", player_name, "to the 'Computer Quiz Game.' ")
@@ -72,19 +73,21 @@ while option != 0:
         # print("Okay! Let's play! :")
         score = 0
 
-        answer = input("Is the coding language Python, named after a snake? ")
-        if answer == "no":
+        answer = input("What does CSS stand for? ")
+        if answer == "cascading style sheets":
             print('correct!!')
             score += 1
         else:
             print('Incorrect!!!')
-
+            print('correct answer is --> cascading style sheets')
+            
         answer = input("What does CPU stand for? ")
         if answer == "central processing unit":
             print('Correct!!')
             score += 1
         else:
             print('Incorrect!!!')
+            print('correct answer is --> central processing unit')
 
         answer = input("What does RAM stand for? ")
         if answer == "random access memory":
@@ -92,6 +95,7 @@ while option != 0:
             score += 1
         else:
             print('Incorrect!!!')
+            print('correct answer is --> random access memory')
 
         answer = input("What does HTML stand for? ")
         if answer == "hypertext markup language":
@@ -99,6 +103,7 @@ while option != 0:
             score += 1
         else:
             print('Incorrect!!!')
+            print('correct answer is --> hypertext markup language')
 
         answer = input("What does PDF stand for? ")
         if answer == "portable document format":
@@ -106,6 +111,7 @@ while option != 0:
             score += 1
         else:
             print('Incorrect!!!')
+            print('correct answer is --> portable document format')
 
         answer = input("What does PNG in computer image format stand for? ")
         if answer == "portable network graphics":
@@ -113,15 +119,16 @@ while option != 0:
             score += 1
         else:
             print('Incorrect!!!')
+            print('correct answer is --> portable network graphics')
 
 
         answer = input("What does GB in computer stand for? ")
-        if answer == "giga bytes":
+        if answer == "gigabyte":
             print('Correct!!')
             score += 1
         else:
             print('Incorrect!!!')
-
+            print('correct answer is --> gigabyte')
 
         answer = input("What does CD in computer stand for? ")
         if answer == "compact disk":
@@ -129,22 +136,25 @@ while option != 0:
             score += 1
         else:
             print('Incorrect!!!')
+            print('correct answer is --> compact disk')
 
 
         answer = input("What does DVD stand for? ")
-        if answer == "digital video disk":
+        if answer == "digital versatile disk":
             print('Correct!!')
             score += 1
         else:
             print('Incorrect!!!')
+            print('correct answer is --> digital versatile disk')
 
 
-        answer = input("What does KB stand for? ")
-        if answer == "kilo bytes":
+        answer = input("What does JSON stand for? ")
+        if answer == "javascript object notation":
             print('Correct!!')
             score += 1
         else:
             print('Incorrect!!!')
+            print('correct answer is --> javascript object notation')
 
 
         print("You got " + str(score) + " questoins correct!")
