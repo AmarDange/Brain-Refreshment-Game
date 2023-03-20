@@ -180,4 +180,3 @@ The website was deployed to GitHub Pages as follows:
 ### Acknowledgements 
 Thank you to anyone taking the time to view my third project. Special thanks to the Slack community and the below individuals:
 * 
-
