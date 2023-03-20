@@ -16,9 +16,7 @@ Description: A computer quiz game in Python. The user attempts to write correct 
 * [User Experience (UX)](#User-Experience-(UX))
   * [Key Information](#key-information)
   * [User Stories](#User-Stories)
-  
-* [Features](#Features)
-  * [Future features](#Future-features)
+
 
 * [Technologies Used](#Technologies-Used)
   * [Languages Used](#Languages-Used)
@@ -27,6 +25,7 @@ Description: A computer quiz game in Python. The user attempts to write correct 
 * [Testing](#Testing)
   * [Solved Bugs](#Solved-Bugs)
   * [Known Bugs](#Known-Bugs)
+  * [PEP8](#pep8)
   * [Manual Testing](#Manual-Testing)
 
 * [Deployment](#Deployment)
@@ -94,5 +93,91 @@ After entering game opting, User input is validated to enter name.(docs/first_fe
 
 ![Second feature](docs/first_feature_2.PNG)
 
+## Technologies Used
 
+### Languages Used
+Python
+
+### Frameworks, Libraries & Programs Used
+* [Am I responsive?](https://ui.dev/amiresponsive) - to show game across a range of devices.
+* Git - for version control. 
+* GitHub - to save and store the code pushed from Git.
+* GitPod - using GitPod terminal to commit to Git and push to GitHub.
+
+## Testing 
+Issues raised in my project meetings with my mentor Brian Macharia.
+
+It was suggested that to improve computer Quiz coding, the user should be able to know the correct asnwer if they wrote incorrect answer.
+
+### Solved Bugs
+
+1. I made two games with python in seperate repositories. My mentor suggested me to combine both game in one game and provide options to user which game he has to play. I again wrote code to cmbine two games and learned, solved bugs and made it fix with one signle game with two options.
+
+2. Correct answer were not displaying to**********************
+
+
+### Known Bugs
+
+1. If user eters incorrect answer in computer quiz game then it is showing only incorrect answer. I was thinking to add correct answer but due to time constraint i could not come with correct code for the same.
+
+### PEP8 
+
+
+
+### Manual Testing
+
+## Deployment 
+
+### Local Deployment
+
+#### How to Clone
+1. Sign up or log in to GitHub
+2. Go to the repository 
+3. Go to the code dropdown and select how you'd like clone and copy the link provided
+4. Go to the new repo and enter in your workspace terminal, "git clone" (without quotes) followed by the link copied
+5. Install termcolor by entering "pip3 install termcolor" (without quotes) to the terminal 
+6. Enter the following command "pip3 freeze > requirements.txt" (without quotes) to the terminal to install the termcolor dependency which will be required if this is deployed to Heroku
+7. Enter command "python3 run.py" (without quotes) to run the game in the terminal
+
+#### How to Fork
+1. Sign up or log in to GitHub
+2. Go to the repository 
+3. Click on the fork button towards the top right of the page 
+
+### Remote Deployment
+The website was deployed to GitHub Pages as follows:
+1. Log in to GitHub
+2. Assuming you have cloned or forked the repository, go on the "Settings" link for this repository
+3. Click on the "Pages" link on the left hand side of the page
+4. Under "Source" select "Deploy from branch" from the dropdown
+5. Under "Branch" select "main" from the dropdown
+6. Click "Save" which will then refresh the page
+7. It might take a few mins before you can refresh and view the link to the site published
+
+### Deploy project to Heroku
+1. Assuming you have cloned or forked the repository, sign up or log in to Heroku
+2. Go to "new" and click "create new app", the "create new app" is also available from the dashboard
+3. Enter a unique app name and choose a region
+4. Click "create app"
+6. Go to the Settings tab and set the Buildbacks to Python and NodeJS, in that order
+7. On the same tab go to Config Vars, click "reveal config vars" and enter PORT in to "KEY" and 8000 in to "VALUE" and then click "Add"
+8. Now go to the Deploy tab and click "Connect to Github" from Deployment Method.
+9. Search by the repository name (which needs to match exactly), once this is found 
+10. Enable automatic deploys if preferred 
+11. Go to Manual deploy, the branch to deploy should be main and then click on "Deploy Branch"
+12. Once deployment is complete you can click "View" to open the game in Heroku
+
+- - -
+
+## Credits
+
+### Code
+
+
+### Content
+
+
+### Acknowledgements 
+Thank you to anyone taking the time to view my third project. Special thanks to the Slack community and the below individuals:
+* 
 
