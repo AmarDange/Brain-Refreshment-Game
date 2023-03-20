@@ -16,10 +16,6 @@ Description: A computer quiz game in Python. The user attempts to write correct 
 * [User Experience (UX)](#User-Experience-(UX))
   * [Key Information](#key-information)
   * [User Stories](#User-Stories)
-
-* [Design](#Design)
-  * [Colour Scheme](#Colour-Scheme)
-  * [Graphics](#Graphics)
   
 * [Features](#Features)
   * [Future features](#Future-features)
@@ -80,3 +76,14 @@ The Quiz game asks the player questions related to Computer, just general quetio
 
 #### Returning Visitor Goals
 * I want to be able to play the game multiple times with a new word.
+
+## Features
+Below are the main features the user will come across when playing the game. The terminal is cleared each time to make it clean and prevent confusion if the user starts to scroll.
+
+1. Brain Refreshment game is displayed, with a short message and a request for the user input their name. The name entered by the user is then used by the computer throughout the game to engage with the user.
+
+![First feature](docs/first_feature.PNG)
+
+   User input is validated so that a game option is only accepted if there is number. If anything else is entered, the below message in red is displayed to instruct the user.
+
+![First user input validation](g)
