@@ -10,4 +10,4 @@ Description: A computer quiz game in Python. The user attempts to write correct 
 
 [Link to the Brain Refreshment game](https://brain-refreshment-game.herokuapp.com/)
 
-[Game shown on a range of devices](docs/am_i_responsive.JPG)
+![Game shown on a range of devices](docs/am_i_responsive.JPG)
