@@ -11,3 +11,34 @@ Description: A computer quiz game in Python. The user attempts to write correct 
 [Link to the Brain Refreshment game](https://brain-refreshment-game.herokuapp.com/)
 
 ![Game shown on a range of devices](docs/am_i_responsive.PNG)
+
+* [How to play](#How-to-play)
+* [User Experience (UX)](#User-Experience-(UX))
+  * [Initial Discussion](#Initial-Discussion)
+  * [User Stories](#User-Stories)
+
+* [Design](#Design)
+  * [Colour Scheme](#Colour-Scheme)
+  * [Graphics](#Graphics)
+  
+* [Features](#Features)
+  * [Future features](#Future-features)
+
+* [Technologies Used](#Technologies-Used)
+  * [Languages Used](#Languages-Used)
+  * [Frameworks, Libraries & Programs Used](#Frameworks,-Libraries-&-Programs-Used)
+
+* [Testing](#Testing)
+  * [Solved Bugs](#Solved-Bugs)
+  * [Known Bugs](#Known-Bugs)
+  * [Manual Testing](#Manual-Testing)
+
+* [Deployment](#Deployment)
+  * [Local Deployment](#Local-Deployment)
+  * [Remote Deployment](#Remote-Deployment)
+  * [Deploy project to Heroku](#Deploy-project-to-Heroku)
+  
+* [Credits](#Credits)
+  * [Code](#Code)
+  * [Content](#Content)
+  * [Acknowledgements](#Acknowledgements)
