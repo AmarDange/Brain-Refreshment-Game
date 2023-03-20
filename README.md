@@ -8,4 +8,4 @@ higher, if they guess too high they are told to guess lower, and the game contin
 ## Game 2: Computer Quiz
 Description: A computer quiz game in Python. The user attempts to write correct answer of quiz which are related to cpython some short cuts which we are using in day today life, if they write correct answer then at the end they will win the game. if they write some correct answer and some incoorect answer then they will have result with percentage.
 
-[Link to Brain Refreshment game](https://brain-refreshment-game.herokuapp.com/)
+[Link to the Brain Refreshment game](https://brain-refreshment-game.herokuapp.com/)
