@@ -251,9 +251,8 @@ def game():
                       attrs=["bold"]))
     
 game()
-# option = int(input("Enter your Game Option : "))
-option = input("Enter your Game Option : ")
-# player_name = input("Enter Your Name:  ")
+option = int(input("Enter your Game Option : "))
+player_name = input("Enter Your Name:  ")
 
 while option != 0:
     if option == 1:
