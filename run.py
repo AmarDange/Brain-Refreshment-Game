@@ -27,7 +27,6 @@ while option != 0:
         Welcome("Welcome  to  NUMBER  GUESSING  GAME ")
         def guess_number():
             random_number = random.randint(1, 50)
-            # player_name = input("Enter Your Name:  ")
             print("Welcome ", player_name, "to the 'Number Guessing Game.' ")
             confirm_play = input("Would you like to start the game? (Enter yes/no): ")
             attempts = 0
@@ -62,15 +61,8 @@ while option != 0:
         Welcome("Welcome  to  COMPUTER  QUIZ  GAME!! ")
         print('NOTE: if your spelling is incorrect then it is considered as wrong answer')
 
-        # player_name = input("Enter Your Name:  ")
         print("Welcome ", player_name, "to the 'Computer Quiz Game.' ")
 
-        # playing = input("Would you like to start the game? (Enter yes/no): ")
-
-        # if playing !="yes":
-        #     quit()
-
-        # print("Okay! Let's play! :")
         score = 0
 
         answer = input("What does CSS stand for? ")
