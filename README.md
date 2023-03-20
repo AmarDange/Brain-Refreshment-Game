@@ -58,4 +58,25 @@ The Quiz game asks the player questions related to Computer, just general quetio
 
 ### Key information:
 * User must enter a name to play
-* Win or lose the user is given an option to play again
+* Win or lose the user is given an option to play again.
+
+### User Stories
+
+#### Client Goals
+* To entertain users & refreshment of brain. Its like small break.
+* To be able to learn how to play
+* To make it easy for users to interact with the game
+* To be clearly informed of invalid input and how to proceed
+* Win or lose, to play the game to completion without issue
+* To be able to choose to play again or quit
+
+#### First Time Visitor Goals
+* I want to enter my name.
+* I want to be able to learn how to play.
+* I want to be given instant feedback if a correct or incorrect guess is made.
+* I want to be able to guess the number or correct answer if I think I know what it is.
+* I want to be informed when the game is over, if I've won or lost.
+* I want to be able to play again or quit.
+
+#### Returning Visitor Goals
+* I want to be able to play the game multiple times with a new word.
