@@ -84,6 +84,6 @@ Below are the main features the user will come across when playing the game. The
 
 ![First feature](docs/first_feature.PNG)
 
-   User input is validated so that a game option is only accepted if there is number. If anything else is entered, the below message in red is displayed to instruct the user.
+   User input is validated so that a game option (1, 2 or O) is only accepted if there is number.
 
 ![First user input validation](g)
