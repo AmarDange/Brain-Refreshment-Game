@@ -14,7 +14,7 @@ Description: A computer quiz game in Python. The user attempts to write correct 
 
 * [How to play](#How-to-play)
 * [User Experience (UX)](#User-Experience-(UX))
-  * [Initial Discussion](#Initial-Discussion)
+  * [Key Information](#key-information)
   * [User Stories](#User-Stories)
 
 * [Design](#Design)
@@ -55,3 +55,7 @@ Total Number of Guesses = 7
 
 #### Computer Quiz :
 The Quiz game asks the player questions related to Computer, just general quetion. They have a chances to answer each question you don't want to take the quiz too difficult. Each correct answer will score a point. At the end of the game, the program will reveal the player's final score.
+
+### Key information:
+* User must enter a name to play
+* Win or lose the user is given an option to play again
