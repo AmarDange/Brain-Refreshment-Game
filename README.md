@@ -117,7 +117,11 @@ Below are the main features the user will come across when playing the game. The
 
  If user enters incorrect asnwer.program will show immediately that answer is incorrect and correct answer will be displayed.
 
-![Fifth feature](assets/images/correct_quiz_answer.PNG) 
+![Fifth feature](assets/images/incorrect_quiz_asnwer_.PNG) 
+
+ Accordingly, User can play game and at the end User will get to know about result.
+ 
+ ![Fifth feature](assets/images/end_game2.PNG) 
 
 ## Technologies Used
 
