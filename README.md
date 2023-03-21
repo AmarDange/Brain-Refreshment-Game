@@ -122,6 +122,10 @@ Below are the main features the user will come across when playing the game. The
  Accordingly, User can play game and at the end User will get to know about result.
  
  ![Fifth feature](assets/images/end_game2.PNG) 
+ 
+ 6. If user choose "game option "0" (computer quiz game), a short message will be displayes to thanks and user can exit game.
+
+![Sixth feature](assets/images/option0_to_exit.PNG)
 
 ## Technologies Used
 
