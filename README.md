@@ -95,13 +95,29 @@ Below are the main features the user will come across when playing the game. The
 
 ![Third feature](assets/images/start_game_1.PNG)
 
-If you choose "No", Short message will be displayed with thank you and again a request for user input to choose game.
+  If you choose "No", Short message will be displayed with thank you and again a request for user input to choose game.
 
-![Third feature no input](assets/images/no_input _for_game1.PNG)
+![Third feature](assets/images/no_input _for_game1.PNG)
 
-4. If user choose "game option 1" (Number gussing game) and to start game choose "yes", Number gussing game will be displayed. So User has to guess one number and he/she has to enter number on screen. if entered number does not match with randomly selected number by program. then hint will be displayed to choose smaller or larger number to enter.
+4. If user choose "game option "1" (Number gussing game) and to start game choose "yes", Number gussing game will be displayed. So User has to guess one number and he/she has to enter number on screen. if entered number does not match with randomly selected number by program. then hint will be displayed to choose smaller or larger number to enter.
 
 ![Fourth feature](assets/images/game1_play_mode.PNG)
+
+  Accordingly, User can play game with hint and at the end User will get to know about in how many attempts he/she win the game. Also a shprt message will be displayed   on game to congratulate user.
+
+![Fourth feature](assets/images/end_message_game1.PNG)
+
+5. If user choose "game option "2" (computer quiz game), a short message for welcome and note will be displayed. Next to it First quiz is also displayed.
+
+![Fifth feature](assets/images/game2_start_mode.PNG)
+
+   If user enters correct asnwer.program will show immediately that answer is correct. Second quiz will be displayed.
+
+![Fifth feature](assets/images/correct_quiz_answer.PNG) 
+
+ If user enters incorrect asnwer.program will show immediately that answer is incorrect and correct answer will be displayed.
+
+![Fifth feature](assets/images/correct_quiz_answer.PNG) 
 
 ## Technologies Used
 
