@@ -242,7 +242,7 @@ run.py - 10 messages showing for, invalid escape sequence '\ '. These do not see
 
 ### Manual Testing
 
-* Application start and intro screen is visible until the key is pressed (as indicated).
+* Application start and intro screen is visible until the key is pressed.
 * After Entering Option & a valid name is given, the screen appears. It requires writing the correct letter presented against the feature that is presented in the option. The input is then validated. If successful, starts the chosen game.
 * After it is selected from the option 1, the Number Guessing game starts immediately. All function are working fine and tested properly
 * After it is selcted from option 2, the computer Quiz game starts immediately. No quiz win caused by a mistake. Shows exact result. All functions checked manually & tested successfully.
