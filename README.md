@@ -132,7 +132,7 @@ Below are the main features the user will come across when playing the game. The
   If you choose "No", Short message will be displayed with thank you and again a request for user input to choose game.
   
 <details>
-<summary>Selecting No</summary>
+<summary>Selecting option "No"</summary>
 <img src = "assets/images/no_input _for_game1.PNG">
 </details>
 
