@@ -179,7 +179,7 @@ Below are the main features the user will come across when playing the game. The
 </details>
 
  
- 6. If user choose "game option "0" (computer quiz game), a short message will be displayes to thanks and user can exit game.
+ 6. If user choose "game option "0" (to exit game), a short message will be displayed to thanks and user can exit game.
 
 <details>
 <summary>Entering Option 0 to exit</summary>
