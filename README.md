@@ -87,11 +87,9 @@ Below are the main features the user will come across when playing the game. The
 
 ![First user input validation](assets/images/Name_input.PNG)
 
-After entering game opting, User input is validated to enter name.(docs/first_feature_1.PNG)
+2. The user is called by their name and welcomed to the game. Two menu options are provided, to either play the game or no. This menu driven interactivity has a clear message requesting input from the user to proceed. User input is validated so that either "yes" or "no" is accepted. 
 
-2. The user is called by their name and welcomed to the game. Two menu options are provided, to either play the game or no. This menu driven interactivity has a clear message requesting input from the user on how they want to proceed. User input is validated so that either "yes" or "no" is accepted. 
-
-![Second feature](docs/first_feature_2.PNG)
+![Second feature](assets/images/welcome_message.PNG)
 
 ## Technologies Used
 
