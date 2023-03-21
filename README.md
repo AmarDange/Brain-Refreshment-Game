@@ -252,13 +252,15 @@ run.py - 10 messages showing for, invalid escape sequence '\ '. These do not see
 ### Local Deployment
 
 #### How to Clone
-1. Sign up or log in to GitHub
-2. Go to the repository 
-3. Go to the code dropdown and select how you'd like clone and copy the link provided
-4. Go to the new repo and enter in your workspace terminal, "git clone" (without quotes) followed by the link copied
-5. Install pyfiglet by entering "pip3 install pyfiglet" & install termcolor by entering "pip3 install termcolor" (without quotes) to the terminal 
-6. Enter the following command "pip3 freeze > requirements.txt" (without quotes) to the terminal to install the termcolor dependency which will be required if this is deployed to Heroku
-7. Enter command "python3 run.py" (without quotes) to run the game in the terminal
+I made a local clone of a repository via the following steps:
+ 1. Navigate to www.github.com and log in.
+ 2. Once logged in navigate to the desired [GitHub Repository](m)
+ 3. Locate the code button at the top, above the repository file structure.
+ 4. Select the preferred clone method from HTTPS. SSH or GitHub CLI then click the copy button to copy the URL to my clipboard.
+ 5. Open Git terminal.
+ 6. Type `git clone` and paste the previously copied URL. I copied HTTPS method.
+ 7. `$ clone https://github.com/jyotiyadav2508/pizza-hub.git`
+ 8. Now press enter and the local clone will be created at the local location.
 
 #### How to Fork
 1. Sign up or log in to GitHub
