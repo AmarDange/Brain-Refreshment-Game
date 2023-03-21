@@ -92,7 +92,6 @@ Bright and bold colors were used throughout the game to draw the users attention
 
 ### Flowchart
 Below is the initial design put together using [Lucid Chart](https://lucid.app/) to plan the logic of the game.
-
 <details>
 <summary>Flowchart</summary>
 <img src = "assets/images/Flowchart.png">
