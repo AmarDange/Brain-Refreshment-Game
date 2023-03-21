@@ -175,7 +175,7 @@ run.py - 6 messages showing for, invalid escape sequence '\ '. These do not seem
 2. Go to the repository 
 3. Go to the code dropdown and select how you'd like clone and copy the link provided
 4. Go to the new repo and enter in your workspace terminal, "git clone" (without quotes) followed by the link copied
-5. Install termcolor by entering "pip3 install termcolor" (without quotes) to the terminal 
+5. Install pyfiglet by entering "pip3 install pyfiglet" & install termcolor by entering "pip3 install termcolor" (without quotes) to the terminal 
 6. Enter the following command "pip3 freeze > requirements.txt" (without quotes) to the terminal to install the termcolor dependency which will be required if this is deployed to Heroku
 7. Enter command "python3 run.py" (without quotes) to run the game in the terminal
 
