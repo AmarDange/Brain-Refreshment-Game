@@ -89,51 +89,85 @@ Below are the main features the user will come across when playing the game. The
 <img src = "assets/images/game_option_input.PNG">
 </details>
 
-![First feature](assets/images/game_option_input.PNG)
-
  Once user input is validated so that a game option (1, 2 or 0) is only accepted if there is number. Next short message will be displayed and a request for the user input their name option
 
-![First user input validation](assets/images/Name_input.PNG)
+<details>
+<summary>User Name</summary>
+<img src = "assets/images/Name_input.PNG">
+</details>
 
 2. The user is called by their name and welcomed to the game. Two menu options are provided, to either play the game or no. This menu driven interactivity has a clear message requesting input from the user to proceed. User input is validated so that either "yes" or "no" is accepted. 
 
-![Second feature](assets/images/welcome_message.PNG)
+<details>
+<summary>Welcome Message</summary>
+<img src = "assets/images/welcome_message.PNG">
+</details>
 
 3. If user choose "yes", game will start as shown in below image
 
-![Third feature](assets/images/start_game_1.PNG)
+<details>
+<summary>Start Game 1 - Number Guessing Game</summary>
+<img src = "assets/images/start_game_1.PNG">
+</details>
+
 
   If you choose "No", Short message will be displayed with thank you and again a request for user input to choose game.
-
-![Third feature](assets/images/no_input _for_game1.PNG)
+  
+<details>
+<summary>Selecting No</summary>
+<img src = "assets/images/no_input _for_game1.PNG">
+</details>
 
 4. If user choose "game option "1" (Number gussing game) and to start game choose "yes", Number gussing game will be displayed. So User has to guess one number and he/she has to enter number on screen. if entered number does not match with randomly selected number by program. then hint will be displayed to choose smaller or larger number to enter.
 
-![Fourth feature](assets/images/game1_play_mode.PNG)
+<details>
+<summary>Staring to Number Guessing Game</summary>
+<img src = "assets/images/game1_play_mode.PNG">
+</details>
 
   Accordingly, User can play game with hint and at the end User will get to know about in how many attempts he/she win the game. Also a shprt message will be displayed   on game to congratulate user.
 
-![Fourth feature](assets/images/end_message_game1.PNG)
+<details>
+<summary>Ending game with short message</summary>
+<img src = "assets/images/end_message_game1.PNG">
+</details>
 
 5. If user choose "game option "2" (computer quiz game), a short message for welcome and note will be displayed. Next to it First quiz is also displayed.
 
-![Fifth feature](assets/images/game2_start_mode.PNG)
+<details>
+<summary>Start Game 2 - Computer Quiz </summary>
+<img src = "assets/images/game2_start_mode.PNG">
+</details>
 
    If user enters correct asnwer.program will show immediately that answer is correct. Second quiz will be displayed.
 
-![Fifth feature](assets/images/correct_quiz_answer.PNG) 
+<details>
+<summary>Entering correct answer</summary>
+<img src = "assets/images/correct_quiz_answer.PNG">
+</details>
 
  If user enters incorrect asnwer.program will show immediately that answer is incorrect and correct answer will be displayed.
 
-![Fifth feature](assets/images/incorrect_quiz_asnwer_.PNG) 
+<details>
+<summary>Entering incorrect answer</summary>
+<img src = "assets/images/incorrect_quiz_asnwer_.PNG">
+</details>
 
  Accordingly, User can play game and at the end User will get to know about result.
  
- ![Fifth feature](assets/images/end_game2.PNG) 
+<details>
+<summary>Ending game 2</summary>
+<img src = "assets/images/end_game2.PNG">
+</details>
+
  
  6. If user choose "game option "0" (computer quiz game), a short message will be displayes to thanks and user can exit game.
 
-![Sixth feature](assets/images/option0_to_exit.PNG)
+<details>
+<summary>Entering Option 0 to exit</summary>
+<img src = "assets/images/option0_to_exit.PNG">
+</details>
+
 
 ## Technologies Used
 
