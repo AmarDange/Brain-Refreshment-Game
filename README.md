@@ -227,4 +227,4 @@ I would like to thank:
 * My mentor Brian Macharia, for all the encouragement, advices, help and expertise.
 * My colleagues from the Code Institute who help to test my code and gave me some wonderful feedback.
 
-## THANK YOU
+
