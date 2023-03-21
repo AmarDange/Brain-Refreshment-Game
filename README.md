@@ -79,6 +79,21 @@ The Quiz game asks the player questions related to Computer, just general quetio
 #### Returning Visitor Goals
 * I want to be able to play the game multiple times with a new word.
 
+## Design
+
+### Colour Scheme
+The termcolor module was used to print colored text.
+
+Bright and bold colors were used throughout the game to draw the users attention for a specific purpose or engagement.
+
+### Flowchart
+Below is the initial design put together using [Lucid Chart](https://lucid.app/) to plan the logic of the game.
+
+<details>
+<summary>Flowchart</summary>
+<img src = "assets/images/Name_input.PNG">
+</details>
+
 ## Features
 Below are the main features the user will come across when playing the game. The terminal is cleared each time to make it clean and prevent confusion if the user starts to scroll.
 
