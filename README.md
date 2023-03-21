@@ -124,7 +124,7 @@ Below are the main features the user will come across when playing the game. The
 3. If user choose "yes", game will start as shown in below image
 
 <details>
-<summary>Start Game 1 - Number Guessing Game</summary>
+<summary>Start Game option 1 - Number Guessing Game</summary>
 <img src = "assets/images/start_game_1.PNG">
 </details>
 
