@@ -212,7 +212,10 @@ The website was deployed to GitHub Pages as follows:
 ## Credits
 
 ### Code
-
+* In order to develop the application, the developer has consulted frequently the following web sites:
+    * [Stack Overflow](https://stackoverflow.com/ 'Link to Stack Overflow')
+    * [MUO](https://www.makeuseof.com/number-guessing-game-using-python/)
+    * [ALLINPYTHON](https://allinpython.com/create-a-simple-python-quiz-game-with-score/)
 
 ### Content
 
