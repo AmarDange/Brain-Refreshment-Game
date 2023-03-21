@@ -36,9 +36,8 @@ Description: A computer quiz game in Python. The user attempts to write correct 
   * [Manual Testing](#Manual-Testing)
 
 * [Deployment](#Deployment)
-  * [Local Deployment](#Local-Deployment)
-  * [Remote Deployment](#Remote-Deployment)
-  * [Deploy project to Heroku](#Deploy-project-to-Heroku)
+  * [Heroku](#LHeroku)
+  * [Clone a Github Repository](#Clone_a_Github_Repository)
   
 * [Credits](#Credits)
   * [Code](#Code)
@@ -249,48 +248,30 @@ run.py - 10 messages showing for, invalid escape sequence '\ '. These do not see
 
 ## Deployment 
 
-### Local Deployment
+### Heroku
 
-#### How to Clone
+This project was deployed to Heroku with following steps:
+
+1. Use the "pip freeze -> requiremnts.txt" command in the terminal to save any libraries that need to be installed in the file.
+2. Navigate to https://www.heroku.com/ and login or create an account. 
+3. Click the "new" button in the upper right corner and select "create new app".
+4. Choose an app name, region and click "Create app".
+5. Go to the "deploy" tab and pick GitHub as a deployment method.
+6. Click the connect button in order to connect it to github.
+7. In the "Choose a branch to deploy" section 'main' was auto selected so clicked on deploy branch.
+8. Wait for the app to build and then click on the "View" link which leads to the deployed link.
+9. New window opens for program.
+
+### Clone a Github Repository
 I made a local clone of a repository via the following steps:
  1. Navigate to www.github.com and log in.
- 2. Once logged in navigate to the desired [GitHub Repository](m)
+ 2. Once logged in navigate to the desired [GitHub Repository](https://github.com/AmarDange/Brain-Refreshment-Game)
  3. Locate the code button at the top, above the repository file structure.
  4. Select the preferred clone method from HTTPS. SSH or GitHub CLI then click the copy button to copy the URL to my clipboard.
  5. Open Git terminal.
  6. Type `git clone` and paste the previously copied URL. I copied HTTPS method.
- 7. `$ clone https://github.com/jyotiyadav2508/pizza-hub.git`
+ 7. `$ clone https://github.com/AmarDange/Brain-Refreshment-Game`
  8. Now press enter and the local clone will be created at the local location.
-
-#### How to Fork
-1. Sign up or log in to GitHub
-2. Go to the repository 
-3. Click on the fork button towards the top right of the page 
-
-### Remote Deployment
-The website was deployed to GitHub Pages as follows:
-1. Log in to GitHub
-2. Assuming you have cloned or forked the repository, go on the "Settings" link for this repository
-3. Click on the "Pages" link on the left hand side of the page
-4. Under "Source" select "Deploy from branch" from the dropdown
-5. Under "Branch" select "main" from the dropdown
-6. Click "Save" which will then refresh the page
-7. It might take a few mins before you can refresh and view the link to the site published
-
-### Deploy project to Heroku
-1. Assuming you have cloned or forked the repository, sign up or log in to Heroku
-2. Go to "new" and click "create new app", the "create new app" is also available from the dashboard
-3. Enter a unique app name and choose a region
-4. Click "create app"
-6. Go to the Settings tab and set the Buildbacks to Python and NodeJS, in that order
-7. On the same tab go to Config Vars, click "reveal config vars" and enter PORT in to "KEY" and 8000 in to "VALUE" and then click "Add"
-8. Now go to the Deploy tab and click "Connect to Github" from Deployment Method.
-9. Search by the repository name (which needs to match exactly), once this is found 
-10. Enable automatic deploys if preferred 
-11. Go to Manual deploy, the branch to deploy should be main and then click on "Deploy Branch"
-12. Once deployment is complete you can click "View" to open the game in Heroku
-
-- - -
 
 ## Credits
 
