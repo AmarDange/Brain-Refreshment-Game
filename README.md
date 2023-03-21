@@ -145,9 +145,9 @@ It was suggested that to improve computer Quiz coding, the user should be able t
 
 ### Solved Bugs
 
-1. I made two games with python in seperate repositories. My mentor suggested me to combine both game in one game and provide options to user which game he has to play. I again wrote code to cmbine two games and learned, solved bugs and made it fix with one signle game with two options.
+1. I made two games with python in seperate repositories. I wanted to submit only one game as a project and I created second game only for my practice. My mentor suggested me to combine both game in one game and provide options to play. I tried to take with one sequance but it was not possible. Hence used While loop.
 
-2. Correct answer were not displaying to**********************
+2. If user enters incorrect answer in computer quiz game then it was showing only incorrect answer. I checked some youtube videos and added code to show correct asnwer as well. so now when user entering incorrect answer, after that correct answer is displayed.
 
 
 ### Known Bugs
