@@ -79,13 +79,13 @@ The Quiz game asks the player questions related to Computer, just general quetio
 ## Features
 Below are the main features the user will come across when playing the game. The terminal is cleared each time to make it clean and prevent confusion if the user starts to scroll.
 
-1. Brain Refreshment game is displayed, with a short message and a request for the user input their game option. The game option entered by the user is then used by the computer. Also Short note is provided in yellow color so that user can insert only valid number which is shown on screen. User input is validated so that a game option (1, 2 or 0) is only accepted if there is number.
+1. Brain Refreshment game is displayed, with a short message and a request for the user input their game option. The game option entered by the user is then used by the computer. Also Short note is provided in yellow color so that user can insert only valid number which is shown on screen.
 
 ![First feature](assets/images/game_option_input.PNG)
 
-   
+ Once user input is validated so that a game option (1, 2 or 0) is only accepted if there is number. Next short message will be displayed and a request for the user input their name option
 
-![First user input validation](docs/first_feature_1.PNG)
+![First user input validation](assets/images/Name_input.PNG)
 
 After entering game opting, User input is validated to enter name.(docs/first_feature_1.PNG)
 
