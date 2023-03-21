@@ -95,7 +95,7 @@ Below is the initial design put together using [Lucid Chart](https://lucid.app/)
 
 <details>
 <summary>Flowchart</summary>
-<img src = "assets/images/Name_input.PNG">
+<img src = "assets/images/Flowchart.png">
 </details>
 
 ## Features
