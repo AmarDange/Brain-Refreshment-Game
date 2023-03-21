@@ -1,4 +1,5 @@
 # Brain Refreshment Game
+Developer : Amar Dange
 Brain refreshment Game is a Python terminal game which runs on Heroku.
 
 Brain refreshment Game includes two games, first is number guessing game and second is Computer Quiz.
@@ -21,6 +22,7 @@ Description: A computer quiz game in Python. The user attempts to write correct 
 * [Technologies Used](#Technologies-Used)
   * [Languages Used](#Languages-Used)
   * [Frameworks, Libraries & Programs Used](#Frameworks,-Libraries-&-Programs-Used)
+  * [Third Party Libraries](#third_party_libraries)
 
 * [Testing](#Testing)
   * [Solved Bugs](#Solved-Bugs)
@@ -137,6 +139,15 @@ Python
 * Git - for version control. 
 * GitHub - to save and store the code pushed from Git.
 * GitPod - using GitPod terminal to commit to Git and push to GitHub.
+* [lucidchart](https://www.lucidchart.com/) Used to create the project flow.
+* Heroku Platform - Used to deploy the live project.
+* PEP8 - Used to validate code against Python conventions
+
+### Third Party Libraries
+
+ * termcolor - I used this library to give colour to user feedback and instructions.
+ * pyfiglet - I used this library to generate the text art messages.
+ 
 
 ## Testing 
 Issues raised in my project meetings with my mentor Brian Macharia.
