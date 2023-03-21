@@ -84,6 +84,11 @@ Below are the main features the user will come across when playing the game. The
 
 1. Brain Refreshment game is displayed, with a short message and a request for the user input their game option. The game option entered by the user is then used by the computer. Also Short note is provided in yellow color so that user can insert only valid number which is shown on screen.
 
+<details>
+<summary>To select game option</summary>
+<img src = "assets/images/game_option_input.PNG">
+</details>
+
 ![First feature](assets/images/game_option_input.PNG)
 
  Once user input is validated so that a game option (1, 2 or 0) is only accepted if there is number. Next short message will be displayed and a request for the user input their name option
