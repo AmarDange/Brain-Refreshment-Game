@@ -152,7 +152,11 @@ It was suggested that to improve computer Quiz coding, the user should be able t
 
 ### Known Bugs
 
-1. If user eters incorrect answer in computer quiz game then it is showing only incorrect answer. I was thinking to add correct answer but due to time constraint i could not come with correct code for the same.
+1. There are warning and information messages that show as problems in Gitpod but after watching some videos and searching on google, I was assured that these would not be an issue and do not affect the functionality of the code. Moreover, these all passed the PEP8 validator.
+
+2. I can make one sequence instaed of using while loop as per mentor suggetion so that it will be at advance level, but due to time constraint I can do more research on it and could not go with one sequence. 
+
+3. I could not write code, if user enters text anstead of numbers to select option game due to time constraint.
 
 ### PEP8 
 
