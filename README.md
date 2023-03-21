@@ -207,7 +207,7 @@ It was suggested that to improve computer Quiz coding, the user should be able t
 
 2. I can make one sequence instaed of using while loop as per mentor suggetion so that it will be at advance level, but due to time constraint I can do more research on it and could not go with one sequence. 
 
-3. I could not write code, if user enters text anstead of numbers to select option game due to time constraint.
+3. I could not write codedue to time constraint, if user enters text or invalid number instead of valid numbers to select option game.
 
 ### PEP8
 
@@ -215,7 +215,11 @@ Testing carried out via [PEP8 Validator](https://pep8ci.herokuapp.com/):
 
 run.py - 10 messages showing for, invalid escape sequence '\ '. These do not seem to affect the functionality of the game and as confirmed by my mentor, this is ok.
 
-![PEP8 validator](assets/images/pep8_validator.PNG)
+<details>
+<summary>PEP8 Validator</summary>
+<img src = "assets/images/pep8_validator.PNG">
+</details>
+
 
 ### Manual Testing
 
