@@ -31,7 +31,7 @@ Description: A computer quiz game in Python. The user attempts to write correct 
 
 * [Testing](#Testing)
   * [Solved Bugs](#Solved-Bugs)
-  * [Known Bugs](#Known-Bugs)
+  * [Unsolved Bugs](#Unsolved-Bugs)
   * [PEP8](#pep8)
   * [Manual Testing](#Manual-Testing)
 
@@ -219,7 +219,7 @@ It was suggested that to improve computer Quiz coding, the user should be able t
 2. If user enters incorrect answer in computer quiz game then it was showing only incorrect answer. I checked some youtube videos and added code to show correct asnwer as well. so now when user entering incorrect answer, after that correct answer is displayed.
 
 
-### Known Bugs
+### Unsolved Bugs
 
 1. There are warning and information messages that show as problems in Gitpod but after watching some videos and searching on google, I was assured that these would not be an issue and do not affect the functionality of the code. Moreover, these all passed the PEP8 validator.
 
