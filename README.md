@@ -91,6 +91,18 @@ Below are the main features the user will come across when playing the game. The
 
 ![Second feature](assets/images/welcome_message.PNG)
 
+3. If user choose "yes", game will start as shown in below image
+
+![Third feature](assets/images/start_game_1.PNG)
+
+If you choose "No", Short message will be displayed with thank you and again a request for user input to choose game.
+
+![Third feature no input](assets/images/no_input _for_game1.PNG)
+
+4. If user choose "game option 1" (Number gussing game) and to start game choose "yes", Number gussing game will be displayed. So User has to guess one number and he/she has to enter number on screen. if entered number does not match with randomly selected number by program. then hint will be displayed to choose smaller or larger number to enter.
+
+![Fourth feature](assets/images/game1_play_mode.PNG)
+
 ## Technologies Used
 
 ### Languages Used
