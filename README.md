@@ -17,7 +17,7 @@ Description: A computer quiz game in Python. The user attempts to write correct 
 * [How to play](#How-to-play)
 * [User Experience (UX)](#User-Experience-(UX))
   * [Key Information](#key-information)
-  * [User Stories](#User-Stories)
+  * [User Goals](#User-Goals)
 
 
 * [Technologies Used](#Technologies-Used)
@@ -58,7 +58,7 @@ The Quiz game asks the player questions related to Computer, just general quetio
 * User must enter a name to play
 * Win or lose the user is given an option to play again.
 
-### User Stories
+### User Goals
 
 #### Client Goals
 * To entertain users & refreshment of brain. Its like small break.
