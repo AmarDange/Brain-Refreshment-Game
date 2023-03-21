@@ -158,9 +158,10 @@ It was suggested that to improve computer Quiz coding, the user should be able t
 
 3. I could not write code, if user enters text anstead of numbers to select option game due to time constraint.
 
-### PEP8 
+### PEP8
 
-
+Testing carried out via PEP8 Validator:
+run.py - 6 messages showing for, invalid escape sequence '\ '. These do not seem to affect the functionality of the game and as confirmed by my mentor, this is ok.
 
 ### Manual Testing
 
