@@ -18,6 +18,10 @@ Description: A computer quiz game in Python. The user attempts to write correct 
 * [User Experience (UX)](#User-Experience-(UX))
   * [Key Information](#key-information)
   * [User Goals](#User-Goals)
+  
+* [Design](#Design)
+  * [Colour Scheme](#Colour-Scheme)
+  * [Flowchart](#Flowchart)
 
 
 * [Technologies Used](#Technologies-Used)
