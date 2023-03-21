@@ -161,6 +161,7 @@ It was suggested that to improve computer Quiz coding, the user should be able t
 ### PEP8
 
 Testing carried out via [PEP8 Validator](https://pep8ci.herokuapp.com/):
+
 run.py - 6 messages showing for, invalid escape sequence '\ '. These do not seem to affect the functionality of the game and as confirmed by my mentor, this is ok.
 
 ### Manual Testing
